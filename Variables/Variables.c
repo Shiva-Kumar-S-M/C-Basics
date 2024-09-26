@@ -65,11 +65,36 @@
 // Single line  
 /* for mutliple line*/
 
+// Scanf -- Taking input
+// scanf("%d",&age);  // %d is a placeholder for integer
+// #include<stdio.h>
+// int main(){
+//     // int age;
+//     // printf("Enter your age: ");
+//     // scanf("%d",&age);
+//     // printf("Your age is :%d",age);
+
+//     int a,b;
+//     printf("Enter two Numbers:");  //output
+//     scanf("%d %d",&a,&b);          //Input
+//     printf("Sum of two numbers is:%d",a*b);
+// }
 
 
+// question WAP to calculate area of square
+//  #include<stdio.h>
+// int main(){
+//     int side;
+//     printf("Enter a side:");
+//     scanf("%d",&side);
+//     printf("Area of square is %d",side*side);
+// }
 
-
-
-
-
-
+// WAP to find area of circle
+ #include<stdio.h>
+int main(){
+    float radius;
+    printf("enter a Radius:");
+    scanf("%f",&radius);
+    printf("Area of circle is:%f",3.14*radius*radius);
+}
