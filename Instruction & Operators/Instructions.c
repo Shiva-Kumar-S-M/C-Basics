@@ -48,6 +48,6 @@
 
 #include<stdio.h>
 int main(){
-    printf("Hello World!");
+    printf("I get to Sacrifice unwanted pleasure");
     return 0;
 }
