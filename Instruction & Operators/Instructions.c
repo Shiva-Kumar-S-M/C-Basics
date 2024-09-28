@@ -36,12 +36,18 @@
 //     printf("%d", isMonday || isRaining);
 // }
 
+// #include<stdio.h>
+// int main(){
+//     int x ;
+//     printf("Enter a number:");
+//     scanf("%d",&x);
+//     printf("%d", x>9 && x<100);
+
+
+// }
+
 #include<stdio.h>
 int main(){
-    int x ;
-    printf("Enter a number:");
-    scanf("%d",&x);
-    printf("%d", x>9 && x<100);
-
-
+    printf("Hello World!");
+    return 0;
 }
