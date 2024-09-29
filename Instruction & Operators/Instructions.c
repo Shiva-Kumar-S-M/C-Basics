@@ -48,6 +48,6 @@
 
 #include<stdio.h>
 int main(){
-    printf("Today is sunday");
+    printf("Tommarow is Monday");
     return 0;
 }
