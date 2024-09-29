@@ -48,6 +48,6 @@
 
 #include<stdio.h>
 int main(){
-    printf("I get to Sacrifice unwanted pleasure");
+    printf("Today is sunday");
     return 0;
 }
