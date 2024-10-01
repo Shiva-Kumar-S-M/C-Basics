@@ -101,21 +101,53 @@
 
 // WAP to check wether a student is passed  or not?
 
+// #include<stdio.h>
+// int main(){
+//     int marks;
+//     printf("Enter Marks :");
+//     scanf("%d",&marks);
+
+//     // if (marks > 30 && marks<=100){
+//     //     printf("Student is passed \n");
+//     // }
+//     // else if (marks<=30 && marks>=0){
+//     //     printf("Student is failed \n");
+//     //         }
+//     //         else {
+//     //             printf("Not appeared");
+//     //         }
+//     marks > 30 && marks <=100 ? printf("Student is Passed"): printf("Student is failed");
+// }
+
+
+// WAP to give grades to student
+// #include<stdio.h>
+// int main(){
+//     int marks;
+//     printf("Enter Marks :");
+//     scanf("%d",&marks);
+//     if(marks >30 && marks <70){
+//         printf("Grade is B \n");
+//     }
+//     else if( marks >70 && marks <=90){
+//         printf("Grades is A \n");
+//     }
+//     else if(marks > 90 && marks <=100){
+//         printf("Grades is A++");
+//     }
+//     else{
+//         printf("Grades is c");
+//     }
+// }
+
 #include<stdio.h>
-int main(){
-    int marks;
-    printf("Enter Marks :");
-    scanf("%d",&marks);
-
-    // if (marks > 30 && marks<=100){
-    //     printf("Student is passed \n");
-    // }
-    // else if (marks<=30 && marks>=0){
-    //     printf("Student is failed \n");
-    //         }
-    //         else {
-    //             printf("Not appeared");
-    //         }
-    marks > 30 && marks <=100 ? printf("Student is Passed"): printf("Student is failed");
+int main()
+{
+    int x = 2;
+    if(x = 1){
+        printf("x is equal to one ");
+    }
+    else{
+        printf("x is not equal to one");
 }
-
+}
