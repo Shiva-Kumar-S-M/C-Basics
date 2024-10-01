@@ -98,3 +98,24 @@
 //         printf("Negative");
 //     }
 // }
+
+// WAP to check wether a student is passed  or not?
+
+#include<stdio.h>
+int main(){
+    int marks;
+    printf("Enter Marks :");
+    scanf("%d",&marks);
+
+    // if (marks > 30 && marks<=100){
+    //     printf("Student is passed \n");
+    // }
+    // else if (marks<=30 && marks>=0){
+    //     printf("Student is failed \n");
+    //         }
+    //         else {
+    //             printf("Not appeared");
+    //         }
+    marks > 30 && marks <=100 ? printf("Student is Passed"): printf("Student is failed");
+}
+
