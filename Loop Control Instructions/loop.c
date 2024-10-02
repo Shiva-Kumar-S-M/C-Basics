@@ -202,11 +202,48 @@
 
 
 // print all odd numbers from 5 to 50
-#include<stdio.h>
- int main(){
-    for(int i=5;i<=50;i++){
-        if(i %2 ==0)
-        continue;
-        printf("%d\n",i);
-    }
- }
+// #include<stdio.h>
+//  int main(){
+//     for(int i=5;i<=50;i++){
+//         if(i %2 ==0)
+//         continue;
+//         printf("%d\n",i);
+//     }
+//  }
+
+// WAP to calculate factorial of n
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     printf("Enter a number to calculate Factorial:");
+//     scanf("%d",&n);
+//     int fact =1;
+//     for(int i=1;i<=n;i++){
+//         fact=fact*i;
+
+//     }
+//             printf("Factorial of Number is:%d",fact);
+
+// }
+
+//WAP to print reverse of the table number n
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     printf("Enter a number:");
+//     scanf("%d",&n);
+//     for(int i=10;i>=1;i--){
+//         printf("%d \n",n*i);
+//     }
+// }
+
+//WAP to calculate sum of number from 5 to 50
+// #include<stdio.h>
+// int main(){
+//     int sum=0;
+//     for(int i=5;i<=50;i++){
+//         sum=sum+i;
+
+//     }
+//     printf("Sum of number is:%d",sum);
+// }
