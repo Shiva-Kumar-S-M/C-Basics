@@ -161,21 +161,52 @@
 //     }while(1);
 //     printf("You  have entered an odd number");
 
+// // }
+
+// // take input from user until he enters a multiple of 7
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     do{
+//         printf("Enter a number:");
+//         scanf("%d",&n);
+//         printf("%d \n",n);
+
+//         if(n%7 ==0)
+//         break;
+
+//     }while(1);
+//     printf("You  have entered an multiple of 7");
+
 // }
 
-// take input from user until he enters a multiple of 7
+//---------------Continue Statements-------------
+// #include<stdio.h>
+//  int main(){
+//     for(int i=1;i<=5;i++){
+//         if(i ==3)
+//         continue;
+//         printf("%d\n",i);
+//     }
+//  }
+
+// WAP To print from 0-10 execept 6
+// #include<stdio.h>
+//  int main(){
+//     for(int i=0;i<=10;i++){
+//         if(i==6)
+//         continue;
+//         printf("%d\n",i);
+//     }
+//  }
+
+
+// print all odd numbers from 5 to 50
 #include<stdio.h>
-int main(){
-    int n;
-    do{
-        printf("Enter a number:");
-        scanf("%d",&n);
-        printf("%d \n",n);
-
-        if(n%7 ==0)
-        break;
-
-    }while(1);
-    printf("You  have entered an multiple of 7");
-
-}
+ int main(){
+    for(int i=5;i<=50;i++){
+        if(i %2 ==0)
+        continue;
+        printf("%d\n",i);
+    }
+ }
