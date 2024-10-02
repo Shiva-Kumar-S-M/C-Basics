@@ -127,3 +127,96 @@
 // float Square(float n){
 //     printf("The Square of Number is :%f",pow(n,2));
 // }
+// WAP to calculate area of square,circle,rectangle
+
+// #include<stdio.h>
+
+// float square(float side);
+// float circle(float r);
+// float rectangle(float l,float b);
+
+// int main(){
+//     float side , r, l,b;
+//     printf("Enter side:");
+//     scanf("%f",&side);
+//     printf("Enter r value:");
+//     scanf("%f",&r);
+//     printf("Enter l&b:");
+//     scanf("%f%f",&l,&b);
+
+//     square(side);
+//     circle(r);
+//     rectangle(l,b);
+//     return 0;
+// }
+// float square(float side){
+//     printf("Area of square is:%f \n",side*side);
+// }
+
+// float circle(float r){
+//     printf("Area of circle is:%f \n",2*3.14*r);
+// }
+
+// float rectangle(float l,float b){
+//     printf("Area of recatngle is:%f%f \n",l*b);
+// }
+
+//----recursive function -----
+// #include<stdio.h>
+// int printHello(int count);
+
+// int main(){
+//     printHello(5);
+//     return 0;
+
+// }
+
+// int printHello(int count){
+//     if(count==0){
+//         return  0;
+//     }
+//     printf("Hello World \n");
+//     printHello(count-1);
+
+// }
+
+//WAP to calculate sum of n natural number using Recursion
+// #include<stdio.h>
+
+// int sum(int n);
+
+// int main(){
+//     printf("Sum of number is :%d",sum(10));
+//     return 0;
+
+// }
+
+// int sum(int n){
+//     if(n==1){
+//         return 1;
+//     }
+//     int sumM1= sum(n-1);
+//     int sumT= sumM1+n;
+//     return  sumT;
+
+// }
+
+//WAP to calulate factorial of n
+#include<stdio.h>
+
+int factorial(int n);
+
+int main(){
+    printf("Factorial is:%d ",factorial(10));
+return 0;
+}
+
+int factorial(int n){
+    if(n==1){
+        return 1;
+    }
+    int factnM1 = factorial(n-1);
+    int factn = factnM1 + n;
+    return  factn;
+
+}
