@@ -140,14 +140,33 @@
 //     }
 // }
 
+// #include<stdio.h>
+// int main()
+// {
+//     int x = 2;
+//     if(x = 1){
+//         printf("x is equal to one ");
+//     }
+//     else{
+//         printf("x is not equal to one");
+// }
+// }
+
+// WAP to check whether a given number is uppercase or not
 #include<stdio.h>
-int main()
+int main ()
 {
-    int x = 2;
-    if(x = 1){
-        printf("x is equal to one ");
+    char ch;
+    printf("Enter a character:");
+    scanf("%c",&ch);
+
+    if( ch >= 'A' && ch <= 'Z'){
+        printf("Character is uppercase");
     }
-    else{
-        printf("x is not equal to one");
-}
+    else if (ch >='a' && ch <='z'){
+        printf("Character is Lowercase");
+    }
+    else {
+        printf("Other than aplhabets");
+    }
 }
