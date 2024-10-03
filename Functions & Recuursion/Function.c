@@ -207,7 +207,7 @@
 int factorial(int n);
 
 int main(){
-    printf("Factorial is:%d ",factorial(10));
+    printf("Factorial is:%d ",factorial(9));
 return 0;
 }
 
