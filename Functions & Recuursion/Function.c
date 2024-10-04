@@ -201,22 +201,48 @@
 
 // }
 
-//WAP to calulate factorial of n
-#include<stdio.h>
+// //WAP to calulate factorial of n
+// #include<stdio.h>
 
-int factorial(int n);
+// int factorial(int n);
 
-int main(){
-    printf("Factorial is:%d ",factorial(9));
-return 0;
-}
+// int main(){
+//     printf("Factorial is:%d ",factorial(5));
+// return 0;
+// }
 
-int factorial(int n){
-    if(n==1){
-        return 1;
-    }
-    int factnM1 = factorial(n-1);
-    int factn = factnM1 + n;
-    return  factn;
+// int factorial(int n){
+//     if(n==1){
+//         return 1;
+//     }
+//     int factnM1 = factorial(n-1);
+//     int factn = factnM1 * n;
+//     return  factn;
 
-}
+// }
+
+//Properties of recurssion
+//1. anything that can be done eith iteration,is possible to do with recurrsion and viceversa
+//2.recursion can sometimes gives most simple solutions
+//3.base case is condition which stops recurssion
+//4.Iterations has infinite loops & Recursion has stack overflow
+
+// //WAP to convert celsius to farahient
+
+// #include<stdio.h>
+
+// float calculateCel(float celcius);
+
+// int main(){
+//     float far = calculateCel(37
+//     );
+//     printf("Farahint :%f",far);
+
+// }
+
+// float calculateCel(float celcius){
+//     float far = celcius*(9.0/5.0)+32;
+//     return far;
+
+// }
+
