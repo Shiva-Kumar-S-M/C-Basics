@@ -246,3 +246,48 @@
 
 // }
 
+
+//Wap to calculate percentage of student for 3 subjects
+
+// #include<stdio.h>
+
+// int calculatePer(int sci,int math,int bio);
+
+// int main(){
+//     int s = 89;
+//     int m =98;
+//     int b=99;
+
+//     printf("Percentage is :%d",calculatePer(s,m,b));
+
+// }
+
+
+// int calculatePer(int sci,int math,int bio){
+//     return ((sci+math+bio)/3);
+// }
+
+//WAP to calculate fibonaci sequence
+// #include<stdio.h>
+
+// int fib(int n);
+
+// int main(){
+//     printf("%d",fib(6));
+//     return 0;
+
+// }
+
+// int fib(int n){
+
+//     if(n==0){
+//         return 0;
+//     }
+//     if(n==1){
+//         return 1;
+//     }
+//     int fibNm1 = fib(n-1);
+//     int fibNm2 = fib(n-2);
+//     int fibN = fibNm1 + fibNm2;
+//     return fibN;
+// }
