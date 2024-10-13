@@ -1,0 +1,1 @@
+// pointers is a varible that stores memory address of another variable
