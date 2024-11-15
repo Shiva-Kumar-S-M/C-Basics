@@ -28,7 +28,7 @@ void stringmatch(){
             i=0;
         }
     }
-    res[j]=='\0';
+    res[j]='\0';
 
 }
 
