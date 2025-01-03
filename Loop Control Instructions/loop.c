@@ -79,7 +79,7 @@
 //     } while(i <= 12);
 // }
 
-// // WAP to sum of Natrural Numbers
+// // WAP to sum of Natural Numbers
 // #include<stdio.h>
 // int main(){
 //     int n;
@@ -238,12 +238,12 @@
 // }
 
 //WAP to calculate sum of number from 5 to 50
-// #include<stdio.h>
-// int main(){
-//     int sum=0;
-//     for(int i=5;i<=50;i++){
-//         sum=sum+i;
+#include<stdio.h>
+int main(){
+    int sum=0;
+    for(int i=5;i<=50;i++){
+        sum=sum+i;
 
-//     }
-//     printf("Sum of number is:%d",sum);
-// }
+    }
+    printf("Sum of number is:%d",sum);
+}
